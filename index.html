@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADV-C67: LABORATÓRIO DE JOGOS</title>
+    <!--Links para o Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--Link para o css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Vamos começar chamando o Bootstrap container para deixar espaços à direita e à esquerda na tela do site-->
+    <div class="container">
+        <!--Vamos criar uma sessão para incorporar os Aplicativos do Code.org-->
+        <section id="app">
+            <!--Vamos adicionar um titulo-->
+            <h1>Aplicativos</h1>
+            <!--Vamos criar um elemento div para fazer uma linha com css-->
+            <div class="line"></div>
+            <!--Vamos incorporar o primeiro App-->
+            <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/zNV4Kz82yooWOZgiSOsgSVciUIKsaPWQ1_VYVu6fvmI/embed"></iframe>
+            <!--Vamos incorporar o segundo App-->
+            <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/MQ0l6Ynfv5m4gHTpzpnxOwf8j9g7IQQ-bKghVHYTDG8/embed"></iframe>
+        </section>
+        <!--Vamos criar uma sessão para incorporar os Jogos do Code.org-->
+        <section id="game">
+            <!--Vamos adicionar um titulo-->
+            <h1>Jogos</h1>
+            <!--Vamos adicionar um subtitulo-->
+            <h5>Esses jogos são construídos no laboratório de jogos do <kbd>Code.org</kbd>, clique no jogo para jogar</h5>
+            <!--
+                Vamos adicionar uma div para colocar nossa animação de carrossel bootstrap.
+                o id serve para de referência, já a classe é um bootstrap que chama o carousel e começa o slide
+            -->
+            <div id="myCarousel" class="carousel slide">
+                <!--Vamos centralizar-->
+                <center>
+                    <!--Vamos criar um div para conter todos os slides do carousel-->
+                    <div class="carousel-inner">
+                        <!--Vamos adicionar uma nova div para colocar o primeiro item (slide)-->
+                        <div class="item active">
+                            <!--Vamos adicionar a tag a para incorporar o jogo e como conteúdo da tag a vamos adicionar uma imagem-->
+                            <a href="https://studio.code.org/projects/gamelab/EJHeYwi9n3NQN06HI4JiSMHMiX3v3F0sdgGffgWBKT4" target="_blank">
+                                <img src="espaco.png">
+                            </a>
+                            <!--Vamos adicionar um paragrafo -->
+                            <p>Permaneça no Espaço</p>
+                        </div>
+                        <!--Vamos adicionar uma nova div para colocar um novo item (slide)-->
+                        <div class="item">
+                            <!--Vamos adicionar a tag a para incorporar o jogo e como conteúdo da tag a vamos adicionar uma imagem-->
+                            <a href="https://studio.code.org/projects/gamelab/inmpetTja3QpXr8b_y3qQ0UR5YSj2fHmwVRO6DLxQto" target="_blank">
+                                <img src="corrida.png">
+                            </a>
+                            <!--Vamos adicionar um paragrafo -->
+                            <p>Corrida Automática</p>
+                        </div>
+                        <!--Vamos adicionar uma nova div para colocar um novo item (slide)-->
+                        <div class="item">
+                            <!--Vamos adicionar a tag a para incorporar o jogo e como conteúdo da tag a vamos adicionar uma imagem-->
+                            <a href="https://studio.code.org/projects/gamelab/4r716Md3dJwy2b-WaBv7izTwMLCgkHssR-oKiLw7iFk" target="_blank">
+                                <img src="ping.png">
+                            </a>
+                            <!--Vamos adicionar um paragrafo -->
+                            <p>Ping-Pong</p>
+                        </div>
+                    </div>
+                    <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </center>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

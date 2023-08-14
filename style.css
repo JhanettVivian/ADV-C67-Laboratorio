@@ -1,0 +1,48 @@
+/*Vamos estilizar o corpo*/
+body{
+    /*Vamos alinhar todo conteúdo ao centro*/
+    text-align: center;
+    /*Vamos definir uma cor de fundo para o site*/
+    background-color: rgb(255, 123, 0);
+    /*Vamos definir uma margem em relação à base*/
+    margin-bottom: 25px;
+}
+/*Vamos estilizar a sessão app*/
+#app{
+    /*Vamos definir uma cor de fundo para o site*/
+    background-color: rgba(153, 244, 156, 0.826);
+    /*Vamos definir um raio de borda*/
+    border-radius: 20px;
+}
+/*Vamos estilizar a sessão game*/
+#game{
+    /*Vamos definir uma cor de fundo para o site*/
+    background-color: rgba(255, 255, 255, 0.826);
+    /*Vamos definir um raio de borda*/
+    border-radius: 20px;
+}
+/*Vamos estilizar o carousel*/
+#myCarousel
+{
+    /*Vamos definir uma cor de fundo*/
+    background-color: rgba(255, 123, 0, 0.678);
+}
+/*Vamos estilizar as imagens do carousel*/
+#myCarousel img
+{
+    /*Vamos definir uma altura*/
+    height: 300px;
+    /*Vamos definir uma margem ao topo*/
+    margin-top: 35px;
+}
+/*Vamos estilizar o paragrafo dos slides*/
+.carousel-inner p
+{
+    /*Vamos definir uma margem ao topo*/
+    margin-top: 15px;
+    /*Vamos definir uma cor para o texto*/
+    color : white;
+    /*Vamos definir um tamanho de fonte*/
+    font-size: 20px;
+}
+
